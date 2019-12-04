@@ -3,14 +3,14 @@ class Pdf2htmlexNew < Formula
   homepage "https://github.com/pdf2htmlEX/pdf2htmlEX/"
   url "https://github.com/stephengaito/pdf2htmlEX/archive/newBuildSystem.tar.gz"
   version "newBuildSystem"
-  sha256 "0795614551e381a98422910070b86666bef791ffcb2ef3fde1765fcc6bb87f18"
+  sha256 "dadcacdec16bf2c7ca10a86bbdf492a4b725c609d83ccf2b16d92f291caf2d19"
 
   bottle do
   end
 
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
-  depends_on "gcc@5" => :build      # many bottles are built with gcc@5
+  depends_on "gcc" => :build
   depends_on "gnu-getopt"
   depends_on "fontforge@20170731"
   depends_on "poppler@0.81.0"
