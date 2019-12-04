@@ -11,8 +11,8 @@ class Pdf2htmlexNew < Formula
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
   depends_on "gnu-getopt"
-  depends_on "pdf2htmlex-fontforge"
-  depends_on "pdf2htmlex-poppler"
+  depends_on "fontforge@20170731"
+  depends_on "poppler@0.81.0"
   depends_on "ttfautohint"
 
   def install

@@ -2,7 +2,7 @@
 # https://github.com/Homebrew/linuxbrew-core/raw/2696f36b92797cf676811410751777306019d22c/Formula/fontforge.rb
 # on 2019-12-03 by Stephen Gaito as part of the upgrade of the pdf2htmlEX formula
 
-class Pdf2htmlexFontforge < Formula
+class FontforgeAT20170731 < Formula
   desc "Command-line outline and bitmap font editor/converter"
   homepage "https://fontforge.github.io"
   url "https://github.com/fontforge/fontforge/releases/download/20170731/fontforge-dist-20170731.tar.xz"

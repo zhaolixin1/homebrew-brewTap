@@ -2,7 +2,11 @@
 # https://github.com/Homebrew/linuxbrew-core/raw/9ba1f92205050b015188c441b9b315a3aca70ff6/Formula/poppler.rb
 # on 2019-12-03 by Stephen Gaito as part of the upgrade of the pdf2htmlEX formula
 
-class Pdf2htmlexPoppler < Formula
+# For versioning see: https://docs.brew.sh/Versions
+# and: https://discourse.brew.sh/t/how-do-i-add-multiple-versions-to-a-formula-on-github/910/10
+
+
+class PopplerAT0810 < Formula
   desc "PDF rendering library (based on the xpdf-3.0 code base)"
   homepage "https://poppler.freedesktop.org/"
   url "https://poppler.freedesktop.org/poppler-0.81.0.tar.xz"
