@@ -16,7 +16,7 @@ class PopplerAT0810 < Formula
   bottle do
   end
 
-  keg_only "these libraries which are used by pdf2htmlEX conflict with the standard poppler brew"
+  keg_only :versioned_formula
 
   depends_on "cmake" => :build
   depends_on "gobject-introspection" => :build

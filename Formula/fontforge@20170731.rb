@@ -12,7 +12,7 @@ class FontforgeAT20170731 < Formula
   bottle do
   end
 
-  keg_only "these libraries which are used by pdf2htmlEX conflict with the standard fontforge brew"
+  keg_only :versioned_formula
 
   depends_on "pkg-config" => :build
   depends_on "cairo"
