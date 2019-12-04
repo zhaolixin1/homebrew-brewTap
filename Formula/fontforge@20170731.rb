@@ -53,7 +53,7 @@ class FontforgeAT20170731 < Formula
 
     # The app here is not functional.
     # If you want GUI/App support, check the caveats to see how to get it.
-    (pkgshare/"osx/FontForge.app").rmtree if OS.mac?
+    #(pkgshare/"osx/FontForge.app").rmtree if OS.mac?
 
     # Build extra tools
     cd "contrib/fonttools" do
