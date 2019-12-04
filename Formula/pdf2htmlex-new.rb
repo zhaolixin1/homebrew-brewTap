@@ -10,6 +10,7 @@ class Pdf2htmlexNew < Formula
 
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
+  depends_on "gcc@5" => :build      # many bottles are built with gcc@5
   depends_on "gnu-getopt"
   depends_on "fontforge@20170731"
   depends_on "poppler@0.81.0"
