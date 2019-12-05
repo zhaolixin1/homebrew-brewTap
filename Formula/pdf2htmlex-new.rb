@@ -3,7 +3,7 @@ class Pdf2htmlexNew < Formula
   homepage "https://github.com/pdf2htmlEX/pdf2htmlEX/"
   url "https://github.com/stephengaito/pdf2htmlEX/archive/newBuildSystem.tar.gz"
   version "newBuildSystem"
-  sha256 "06a715b9495dfd0eb141d3a95966facbf63ac5c295b73af62515e2bb15b75964"
+  sha256 "3a324b0bb60634cf86111218c7dcbe1ad7c4a3acd97f5169dd33ac6a1f77b335"
 
   bottle do
   end
