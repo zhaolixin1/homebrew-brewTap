@@ -45,6 +45,8 @@ class FontforgeAT20170731 < Formula
     # https://github.com/fontforge/fontforge/pull/3147
     inreplace "fontforgeexe/startnoui.c", "#include \"fontforgevw.h\"", "#include \"fontforgevw.h\"\n#include \"encoding.h\""
 
+    system "printenv"
+
     system "./configure", "--prefix=#{prefix}",
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
