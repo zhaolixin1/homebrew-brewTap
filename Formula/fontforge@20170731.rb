@@ -47,6 +47,11 @@ class FontforgeAT20170731 < Formula
 
     system "printenv"
 
+    system "which", "clang"
+
+    require 'pp'
+    pp global_variables
+
     system "./configure", "--prefix=#{prefix}",
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
