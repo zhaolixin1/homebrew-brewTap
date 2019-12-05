@@ -38,8 +38,8 @@ class FontforgeAT20170731 < Formula
   end
 
   def install
-    ENV["PYTHON_CFLAGS"] = `python-config --cflags`.chomp
-    ENV["PYTHON_LIBS"] = `python-config --ldflags`.chomp
+#    ENV["PYTHON_CFLAGS"] = `python-config --cflags`.chomp
+#    ENV["PYTHON_LIBS"] = `python-config --ldflags`.chomp
 
     # Fix header includes to avoid crash at runtime:
     # https://github.com/fontforge/fontforge/pull/3147
