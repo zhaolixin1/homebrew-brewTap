@@ -28,6 +28,7 @@ class Pdf2htmlexNew < Formula
     system "cmake", ".", *std_cmake_args
     system "make"
     system "make", "install"
+    system "otool -L $(which pdf2htmlEX)"
   end
 
 #  test do
