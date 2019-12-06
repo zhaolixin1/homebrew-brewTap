@@ -52,6 +52,8 @@ class FontforgeAT20170731 < Formula
     require 'pp'
     pp global_variables
 
+    pp ENV
+
     system "./configure", "--prefix=#{prefix}",
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",

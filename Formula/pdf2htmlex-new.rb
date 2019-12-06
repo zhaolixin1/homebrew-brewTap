@@ -3,7 +3,7 @@ class Pdf2htmlexNew < Formula
   homepage "https://github.com/pdf2htmlEX/pdf2htmlEX/"
   url "https://github.com/stephengaito/pdf2htmlEX/archive/newBuildSystem.tar.gz"
   version "newBuildSystem"
-  sha256 "c53a5057e1b2b30187fd3211b48f449f0ddc1a97ed91eaae7f479806503dd7b7"
+  sha256 "320ac2e1c2ea4a2972970f52809d90073ee00a6c42ef6d9833fb48436222f0e5"
 
   bottle do
   end
@@ -28,8 +28,9 @@ class Pdf2htmlexNew < Formula
     system "cmake", ".", *std_cmake_args
     system "make"
     system "make", "install"
-    system "otool -L $(which pdf2htmlEX)" if OS.mac?
-    system "ldd $(which pdf2htmlEX)" unless OS.mac?
+    pdf2htmlPath = `which pdf2htmlEX`
+    system "otool", "-L", pdf2htmlPath.to_s if OS.mac?
+    system "ldd", pdf2htmlPath.to_s unless OS.mac?
   end
 
 #  test do
