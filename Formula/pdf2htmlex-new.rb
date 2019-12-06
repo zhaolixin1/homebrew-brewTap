@@ -28,7 +28,8 @@ class Pdf2htmlexNew < Formula
     system "cmake", ".", *std_cmake_args
     system "make"
     system "make", "install"
-    system "otool -L $(which pdf2htmlEX)"
+    system "otool -L $(which pdf2htmlEX)" if OS.mac?
+    system "ldd $(which pdf2htmlEX)" unless OS.mac?
   end
 
 #  test do
