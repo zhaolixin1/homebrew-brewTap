@@ -3,7 +3,7 @@ class Pdf2htmlexNew < Formula
   homepage "https://github.com/pdf2htmlEX/pdf2htmlEX/"
   url "https://github.com/stephengaito/pdf2htmlEX/archive/fontforge-update.tar.gz"
   version "fontforge-update"
-  sha256 "19d4bbd2368a12ee550334f1edc7c58d383aed7c3cdd2fc024bcdeabe8ae92ee"
+  sha256 "7df9821bb2bb0d07ad2e3ccfbe59ab721c8146f029648fa06d5b9bc569f2bd94"
 
   bottle do
   end
