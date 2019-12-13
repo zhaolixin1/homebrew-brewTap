@@ -17,6 +17,7 @@ class Pdf2htmlexNew < Formula
 #  depends_on "poppler@0.81.0"
   depends_on "fontforge"
   depends_on "poppler"
+  depends_on "python"
   depends_on "ttfautohint"
 
   def install
