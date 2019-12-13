@@ -3,7 +3,7 @@ class Pdf2htmlexNew < Formula
   homepage "https://github.com/pdf2htmlEX/pdf2htmlEX/"
   url "https://github.com/stephengaito/pdf2htmlEX/archive/update-poppler.tar.gz"
   version "update-poppler"
-  sha256 "8ff280d5c70f4dd36aefc2561d4aaeb85b2133fbfe579b96555795e73f92a971"
+  sha256 "78ea892f7692ded40f4474469baed27206bcee740f17e8bba49f187b02a9d11e"
 
   bottle do
   end
