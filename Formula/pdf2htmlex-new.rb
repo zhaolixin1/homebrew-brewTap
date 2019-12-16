@@ -27,7 +27,8 @@ class Pdf2htmlexNew < Formula
     # in order to ensure gettext gets built with the same libstdc++/gcc 
     # versions
 
-    system "brew", "switch", "python", "3.7.5"
+#    system "brew", "switch", "python", "3.7.5"
+    system "which", "python3"
     ENV["PYTHON_CFLAGS"] = `python3-config --cflags`.chomp
     ENV["PYTHON_LIBS"] = `python3-config --ldflags`.chomp
 
