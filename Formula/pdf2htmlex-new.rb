@@ -36,7 +36,7 @@ class Pdf2htmlexNew < Formula
     system "cmake", ".", *std_cmake_args
     system "make"
     system "make", "install"
-#    system "otool", "-L"
+    system "otool", "-L", "/usr/local/opt/fontforge/lib/libfontforge.3.dylib"
   end
 
 #  test do
