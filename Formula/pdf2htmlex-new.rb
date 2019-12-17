@@ -55,7 +55,7 @@ class Pdf2htmlexNew < Formula
 #      ENV.append "LDFLAGS", "-lintl" if OS.mac?
 
       # Reset ARCHFLAGS to match how we build
-      ENV["ARCHFLAGS"] = "-arch #{MacOS.preferred_arch}"
+      ENV["ARCHFLAGS"] = "-arch #{MacOS.preferred_arch}" if OS.mac?
 
       system "./autogen.sh"
       system "./configure", "--prefix=#{libexec}/fontforge",
