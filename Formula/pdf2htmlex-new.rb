@@ -108,7 +108,7 @@ class Pdf2htmlexNew < Formula
     system "./buildScripts/getPopplerData" unless File.directory?("poppler-data")
     system "./buildScripts/getFontforge" unless File.directory?("fontforge")
     system "./buildScripts/buildFontforge" # FontForge does not yet use cmake
-    system "./buildScripts/buildPdf2hmtlEX", *std_cmake_args
+    system "./buildScripts/buildPdf2htmlEX", *std_cmake_args
     system "./buildScripts/installPdf2htmlEX"
 #    system "cmake", ".", *std_cmake_args
 #    system "make"
