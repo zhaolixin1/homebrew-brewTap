@@ -1,9 +1,9 @@
 class Pdf2htmlexNew < Formula
   desc "PDF to HTML converter"
   homepage "https://github.com/pdf2htmlEX/pdf2htmlEX/"
-  url "https://github.com/stephengaito/pdf2htmlEX/archive/update-poppler.tar.gz"
+  url "https://github.com/stephengaito/pdf2htmlEX/archive/new-cmake-system.tar.gz"
   sha256 "78ea892f7692ded40f4474469baed27206bcee740f17e8bba49f187b02a9d11e"
-  version "update-poppler"
+  version "new-cmake-system"
 
   bottle do
   end
