@@ -97,8 +97,8 @@ class Pdf2htmlexNew < Formula
 #    ENV.prepend_path "PKG_CONFIG_PATH", "#{libexec}/poppler/lib/pkgconfig"
 #    ENV.prepend_path "PATH", "#{libexec}/poppler/bin"
 
-    system "./buildScritps/versionEnvs"
-    system "./buildScritps/reportEnvs"
+    system "./buildScripts/versionEnvs"
+    system "./buildScripts/reportEnvs"
     system "./buildScripts/getPoppler" unless File.directory?("poppler")
     system "./buildScripts/buildPoppler", *std_cmake_args
     system "./buildScripts/getPopplerData" unless File.directory?("poppler-data")
