@@ -15,6 +15,7 @@ class Pdf2htmlexNew < Formula
   depends_on "autoconf" => :build # for fontforge
   depends_on "automake" => :build # for fontforge
   depends_on "cmake" => :build
+  depends_on "make" => :build
   depends_on "pkg-config" => :build
   #
   # development libraries
