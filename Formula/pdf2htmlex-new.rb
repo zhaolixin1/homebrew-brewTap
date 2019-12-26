@@ -5,6 +5,8 @@ class Pdf2htmlexNew < Formula
   sha256 "1c1758a08bd5b7188ec2672ad56e35cf485f0071dc5e581f12d232eac0a5a48d"
   version "new-cmake-system"
 
+  ENV['PDF2HTMLEX_BRANCH'] = "new-cmake-system"
+
   bottle do
   end
 
