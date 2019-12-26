@@ -23,14 +23,14 @@ class Pdf2htmlexNew < Formula
   depends_on "cairo" # for fontforge and poppler
   depends_on "freetype" # for fontforge and poppler
   depends_on "gettext" # for fontforge
-  depends_on "giflib" # for fontforge
+#  depends_on "giflib" # for fontforge
   depends_on "glib" # for fontforge and poppler
   depends_on "gnu-getopt"
   depends_on "jpeg" # for fontforge
   depends_on "libpng" # for fontforge
-  depends_on "libtiff" # for fontforge
+#  depends_on "libtiff" # for fontforge
   depends_on "libtool" # for fontforge
-  depends_on "openjpeg" # for poppler
+#  depends_on "openjpeg" # for poppler
   depends_on "pango" # for fontforge
   depends_on "ttfautohint"
   depends_on "libxml2"
