@@ -33,6 +33,7 @@ class Pdf2htmlexNew < Formula
   depends_on "openjpeg" # for poppler
   depends_on "pango" # for fontforge
   depends_on "ttfautohint"
+  depends_on "libxml2"
 
   # We use the standard FontForge, but we need to compile it with 
   # configuration options which are very different from those in the 
