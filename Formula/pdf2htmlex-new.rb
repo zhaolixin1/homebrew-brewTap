@@ -41,7 +41,7 @@ class Pdf2htmlexNew < Formula
   def install
     # set the basic environment variables for the buildScripts
     #
-    ENV['PDF2HTML_PREFIX'] = "#{prefix}" # prefix is only defined inside install
+    ENV['PDF2HTMLEX_PREFIX'] = "#{prefix}" # prefix is only defined inside install
 
     system "./buildScripts/versionEnvs"
     system "./buildScripts/reportEnvs"
