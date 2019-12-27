@@ -37,6 +37,7 @@ class Pdf2htmlexNew < Formula
   depends_on "pango" # for fontforge
   depends_on "ttfautohint"
   depends_on "libxml2"
+  depends_on "lcms2"
 
   def install
     # set the basic environment variables for the buildScripts
