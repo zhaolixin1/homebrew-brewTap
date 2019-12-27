@@ -2,7 +2,7 @@ class Pdf2htmlexNew < Formula
   desc "PDF to HTML converter"
   homepage "https://github.com/pdf2htmlEX/pdf2htmlEX/"
   url "https://github.com/stephengaito/pdf2htmlEX/archive/new-cmake-system.tar.gz"
-  sha256 "8b7cfff1368b9f04474036ae3d8524a0369e824d08d4618d99d3ed097dd4b6ea"
+  sha256 "f9b93da3335c8515e1c2564ced8ddea2c0848af965b5eb7afea2940a403d28c5"
   version "new-cmake-system"
 
   # set the basic environment variables for the buildScripts
