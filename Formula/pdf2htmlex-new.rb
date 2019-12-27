@@ -8,7 +8,6 @@ class Pdf2htmlexNew < Formula
   # set the basic environment variables for the buildScripts
   #
   ENV['PDF2HTMLEX_BRANCH'] = "new-cmake-system"
-  ENV['PDF2HTML_PREFIX']   = "#{prefix}"
   ENV['UNATTENDED']        = "--assume-yes"
 
   bottle do
@@ -40,6 +39,10 @@ class Pdf2htmlexNew < Formula
   depends_on "libxml2"
 
   def install
+    # set the basic environment variables for the buildScripts
+    #
+    ENV['PDF2HTML_PREFIX'] = "#{prefix}" # prefix is only defined inside install
+
     system "./buildScripts/versionEnvs"
     system "./buildScripts/reportEnvs"
     system "./buildScripts/getPoppler"
