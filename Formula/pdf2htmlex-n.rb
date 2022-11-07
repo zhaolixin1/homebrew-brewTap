@@ -3,8 +3,6 @@ class Pdf2htmlexN < Formula
   homepage "https://github.com/zhaolixin1/pdf2htmlEX"
   url "https://github.com/zhaolixin1/pdf2htmlEX/archive/refs/tags/v0.14.6.tar.gz"
   sha256 "79be9631041b9d20b2139bf266296db4164f864263e2c4e0b96c877e73fc6646"
-  license "GPL-3.0-or-later"
-  head "https://github.com/zhaolixin1/pdf2htmlEX.git", branch: "master"
 
   bottle do
     sha256 arm64_big_sur: "8c29d3c811e6e6580644620a76848458db39181b996cc15e4df2589c8de40e27"
