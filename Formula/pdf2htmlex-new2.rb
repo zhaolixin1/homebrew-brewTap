@@ -1,4 +1,4 @@
-class Pdf2htmlex < Formula
+class Pdf2htmlexNew2 < Formula
   desc "PDF to HTML converter"
   homepage "https://github.com/zhaolixin1/pdf2htmlEX"
   url "https://github.com/zhaolixin1/pdf2htmlEX/archive/refs/tags/v0.14.6.tar.gz"
