@@ -7,7 +7,7 @@ class Pdf2htmlexNew < Formula
 
   # set the basic environment variables for the buildScripts
   #
-  ENV['PDF2HTMLEX_BRANCH'] = "new-cmake-system"
+  ENV['PDF2HTMLEX_BRANCH'] = "v0.18.8.rc1"
   ENV['UNATTENDED']        = "--assume-yes"
 
   bottle do
